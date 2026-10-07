@@ -9,7 +9,7 @@
 
 A proof of concept of a **tool-calling AI agent for RAN operations**. It diagnoses **5G NSA (EN-DC, option 3x)** problems on LTE anchors and n78 cells, runs **100 % locally** on [Ollama](https://ollama.com), and is **traced end to end in LangSmith**.
 
-> Write-up: *Teaching a Local LLM to Troubleshoot 5G NSA: What the Traces Taught Me* (TODO: link to the blog post)
+> Write-up: [Teaching a Local LLM to Troubleshoot 5G NSA: What the Traces Taught Me](https://signal-to-agents.pages.dev/blog/5g-nsa-agent-tool-calling-gemma4/) · [versión en español](https://signal-to-agents.pages.dev/blog/es/5g-nsa-agent-tool-calling-gemma4/)
 
 > **All network data is fictional.** No operator data is used. The propagation model is real but simplified.
 
