@@ -1,0 +1,12 @@
+name: tests
+on: [push, pull_request]
+jobs:
+  offline-tests:
+    runs-on: ubuntu-latest
+    env:
+      LANGSMITH_TRACING: "false"
+    steps:
+      - uses: actions/checkout@v4
+      - uses: astral-sh/setup-uv@v6
+      - run: uv sync --locked
+      - run: uv run python test_agents.py

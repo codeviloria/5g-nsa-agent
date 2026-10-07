@@ -1,0 +1,15 @@
+[project]
+name = "5g-nsa-agent"
+version = "0.1.0"
+description = "PoC: 5G NSA (EN-DC) troubleshooting agent with tool calling on local LLMs (Ollama), traced in LangSmith"
+readme = "README.md"
+requires-python = ">=3.10"
+license = "MIT"
+authors = [{ name = "Gino" }]
+keywords = ["5g", "nsa", "en-dc", "ran", "telecom", "llm", "agents", "langchain", "ollama", "langsmith"]
+dependencies = [
+    "langchain>=1.0",
+    "langchain-ollama>=1.0",
+    "langsmith>=0.4",
+    "python-dotenv>=1.0",
+]
